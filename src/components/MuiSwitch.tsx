@@ -7,6 +7,7 @@ const MuiSwitch = () => {
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setChecked(event.target.checked);
   };
+
   return (
     <Box>
       <FormControlLabel
